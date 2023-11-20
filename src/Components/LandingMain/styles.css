@@ -1,0 +1,101 @@
+.landing-main {
+    z-index: 10000;
+    width: 70vw;
+    height: 100vh;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.landing-main .title {
+    font-size: 40px;
+    transition: all .7s;
+    color: white;
+}
+
+.landing-main .landing-quote {
+
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    background: #A80CCF;
+    background: linear-gradient(to right, #A80CCF 39%, #2308CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .7s;
+
+}
+
+.landing-main .landing-moto {
+
+
+    font-size: 18px;
+    transition: all .7s;
+    color: white;
+
+}
+
+#tsparticles {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.landing-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+}
+
+.landing-form input {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .landing-main .title {
+        font-size: 36px;
+    }
+
+    .landing-main .landing-quote {
+        font-size: 44px;
+        font-weight: 600;
+
+    }
+
+    .landing-main .landing-moto {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .landing-main .title {
+        font-size: 28px;
+    }
+
+    .landing-main .landing-quote {
+        font-size: 36px;
+        font-weight: 600;
+
+    }
+
+    .landing-main .landing-moto {
+        font-size: 14px;
+    }
+
+}

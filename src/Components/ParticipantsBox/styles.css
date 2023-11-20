@@ -1,0 +1,32 @@
+.participants-box {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.participants-box-header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--grey);
+}
+
+.participants-box-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.participant-item {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.participant-item .user-name {
+    font-size: 18px;
+    color: var(--grey);
+}

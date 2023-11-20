@@ -1,0 +1,17 @@
+.btn {
+    min-width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: inherit;
+    transition: all .3s;
+}
+
+.btn:hover {
+    background-color: var(--pink);
+    border: 1px solid var(--pink);
+    color: white;
+}

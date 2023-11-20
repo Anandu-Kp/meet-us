@@ -1,0 +1,45 @@
+.room-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.room-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    height: 90vh;
+    gap: 1.5rem;
+}
+
+
+.room-left {
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.room-right {
+    min-width: 35vw;
+    display: flex;
+    justify-content: center;
+}
+
+.current-user {
+    height: 60vh;
+    position: relative;
+}
+
+.current-user>img {
+    width: 100%;
+}
+
+.user-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

@@ -1,0 +1,25 @@
+.home-bottom-slider-container {
+    height: 25vh;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.bottom-user {
+    position: relative;
+}
+
+.bottom-user>img {
+    height: 100%;
+    width: 15vw;
+}
+
+.home-bottom-user-icons {
+    display: flex;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    width: 30px;
+    height: 20px;
+}
